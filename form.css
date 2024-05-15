@@ -1,0 +1,121 @@
+body {    
+      background: black;  
+    font-family: Arial, sans-serif;  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+form {  
+   background-color: black;    
+    position: absolute;
+    top: 100px;          
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 700px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+    background-color: #f8f8f8;
+    color: #333;
+ 
+    cursor: pointer;
+    
+    appearance: none;
+ 
+    border: 2px solid #ddd;
+   
+    padding-right: 30px;   
+      
+    background-position: right 10px center;
+    
+    background-size: 15px;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* Alterando a aparência padrão do cursor para um ponteiro */
+    cursor: pointer;
+    /* Removendo a aparência padrão do elemento */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Adicionando uma imagem de fundo para representar uma seta personalizada */
+    
+    /* Posicionando a imagem de fundo no lado direito do select */
+    background-position: right 10px center;
+    /* Definindo o tamanho da imagem de fundo */
+    background-size: 15px;
+}
+
+/* Estilizando as opções do select */
+select option {
+    /* Alterando a fonte e o tamanho do texto das opções */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    /* Definindo a cor do texto das opções */
+    color: #333;
+    /* Definindo o fundo das opções */
+    background-color: #fff;
+}
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color:greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilos para o botão quando o cursor passa por cima */
+button:hover {
+    background-color: rgb(0, 128, 111);
+}
+
+label{
+    color: white;
+}
+
+/* Estilos para o botão quando o cursor passa por cima */
