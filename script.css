@@ -61,3 +61,93 @@ header{
     color: #666; 
     
 }
+
+body {
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Centralização do conteúdo principal */
+.conteudo-central {
+    flex: 1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.titulo-centralizado {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.descricao-centralizada {
+    font-size: 20px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+/* Seção de cards */
+.cards-rh {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+.card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #7CFC00, #00ff00);
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #00ff00, #7CFC00);
+}
+
+/* Rodapé */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+}
